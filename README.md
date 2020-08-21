@@ -3,4 +3,4 @@
 TP para Arquitectura web
 ABM para sistema de gestion de Autos Abandonados
 
-Node JS + Angular + PostgreSQL
+Node JS + React + PostgreSQL
