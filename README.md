@@ -9,3 +9,5 @@ Endpoints:
   1) GET - Registro (individual)
   2) GET - Registros Resumidos (Paginado)
   3) POST/PUT - Registro (INS/UPD)
+  4) GET - Imagenes (de Registro)
+  5) POST/PUT - Imagenes
