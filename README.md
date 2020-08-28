@@ -6,6 +6,6 @@ ABM para sistema de gestion de Autos Abandonados
 Node JS + React + PostgreSQL
 
 Endpoints:
-  > GET - Registro (individual)
-  > GET - Registros Resumidos (Paginado)
-  > POST - Registro (INS/UPD)
+  1) GET - Registro (individual)
+  2) GET - Registros Resumidos (Paginado)
+  3) POST/PUT - Registro (INS/UPD)
