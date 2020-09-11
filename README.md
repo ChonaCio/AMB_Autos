@@ -6,16 +6,19 @@ ABM para sistema de gestion de Autos Abandonados
 Node JS + React + PostgreSQL
 
 Endpoints Principales (Registros):
-  1) Lista de autos (Filtrado + Paginado)
-    *GET /autos/list*
+  1) Lista de autos (Filtrado + Paginado)<br>
+    **GET /autos/list**<br>
     Parametros: {filtro, pagina}
-  2) Datos completos de autos
-    *GET /autos/datos*
+    
+  2) Datos completos de autos<br>
+    **GET /autos/datos**<br>
     Parametros: {id}
-  3) Crear nuevo auto
-    *POST /autos/new*
-  4) Actualizar datos de auto
-    *PUT /autos/upd*
+    
+  3) Crear nuevo auto<br>
+      **POST /autos/new**<br>
+      
+  4) Actualizar datos de auto<br>
+      **PUT /autos/upd**
   ----------------------------------------------------------
 Endpoints Secundarios (Imagenes):
   1) GET - Imagenes (de Registro)
