@@ -19,9 +19,8 @@ app.get('/autos', (req, res) => {
 });
 
 app.get('/autos/:avIdentificador/:avBloque', (req, res) => {
-	aviso = fn.getAuto(req.params.avIdentificador, req.params.avBloque);
-	if(!aviso) res.status(404).send("No se encontro el aviso");
-	res.status(200).send(aviso);
+	const rs = fn.getAuto(req.params.avIdentificador, req.params.avBloque);
+	res.status(rs[0]).send(rs[1])
 });
 
 fn.jsonLoad(); // Carga JSON en memoria (ASYNC)

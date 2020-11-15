@@ -15,7 +15,12 @@ module.exports = {
 	},
 
 	getAuto: function (avIdentificador, avBloque) {
-		return jsonFind(avIdentificador.concat("/").concat(avBloque));
+		let jsonReg = jsonFind(avIdentificador.concat("/").concat(avBloque));
+		if (jsonReg) {
+			return [200, jsonReg];
+		} else {
+			return [404, "No se encontro el aviso"];
+		}
 	},
 
 	updAuto: function (data) {
