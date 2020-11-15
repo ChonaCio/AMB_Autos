@@ -7,18 +7,17 @@ Node JS + React + PostgreSQL
 
 Endpoints Principales (Registros):
   1) Lista de autos (Filtrado + Paginado)<br>
-    **GET /autos/lista**<br>
-    Parametros: {filtro, pagina}
+    **GET /autos/**<br>
+    Parametros: {filtro}
     
   2) Datos completos de autos<br>
-    **GET /autos/datos**<br>
-    Parametros: {id}
+    **GET /autos/{avIdentificador}/{avBloque}**<br>
     
   3) Crear nuevo auto<br>
-      **POST /autos/nuevo**<br>
+      **POST /autos/**<br>
       
   4) Actualizar datos de auto<br>
-      **PUT /autos/actualizar**
+      **PUT /autos/**
   ----------------------------------------------------------
 Endpoints Secundarios (Imagenes):
   1) GET - Imagenes (de Registro)
