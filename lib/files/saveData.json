@@ -1,0 +1,62 @@
+[
+  {
+    "aviso": "S0000001/20",
+    "fechaAviso": "2020-01-01",
+    "fechaUltimaModificacion": "2020-03-05",
+    "estadoAviso": "Cerrado",
+    "nombreDireccion": "Sarasa",
+    "nroDireccion": 123,
+    "infoAuto": {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "dominio": "FFF123",
+      "nombreTitular": "Pedro",
+      "apellidoTitular": "Gomez"
+    },
+    "infoProceso": {
+      "notificado": true,
+      "acarreado": true,
+      "compactado": true
+    }
+  },
+  {
+    "aviso": "S0000002/20",
+    "fechaAviso": "2020-01-01",
+    "fechaUltimaModificacion": "2020-03-05",
+    "estadoAviso": "Cerrado",
+    "nombreDireccion": "Sarasa",
+    "nroDireccion": 123,
+    "infoAuto": {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "dominio": "FFF123",
+      "nombreTitular": "Pedro",
+      "apellidoTitular": "Gomez"
+    },
+    "infoProceso": {
+      "notificado": true,
+      "acarreado": true,
+      "compactado": true
+    }
+  },
+  {
+    "aviso": "S0000003/20",
+    "fechaAviso": "2020-01-01",
+    "fechaUltimaModificacion": "2020-03-05",
+    "estadoAviso": "Cerrado",
+    "nombreDireccion": "Sarasa",
+    "nroDireccion": 123,
+    "infoAuto": {
+      "marca": "Ford",
+      "modelo": "Focus",
+      "dominio": "AAA123",
+      "nombreTitular": "Pedro",
+      "apellidoTitular": "Gomez"
+    },
+    "infoProceso": {
+      "notificado": true,
+      "acarreado": true,
+      "compactado": true
+    }
+  }
+]
